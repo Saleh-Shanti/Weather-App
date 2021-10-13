@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  font-size: xx-large;
+  background: linear-gradient(
+    0deg,
+    rgba(26, 160, 162, 1) 0%,
+    rgba(45, 53, 253, 1) 100%
+  );
+  text-align: center;
+  color: white;
+}
+.hide {
+  display: none;
+}
+.error-text {
+  margin: 10px 0;
+  color: red;
+  font-size: 1.7em;
+}
+textarea {
+  max-width: 80%;
+  margin: auto 10%;
+}
+main {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 40%;
+  margin: auto;
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  width: 100%;
+  margin-top: 30px;
+}
+.zip-ask {
+  height: 40vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.degree {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.temp {
+  margin-right: 10px;
+}
+.btn {
+  background: #1ed053;
+  background-image: -webkit-linear-gradient(top, #1ed053, #3df6d3);
+  background-image: -moz-linear-gradient(top, #1ed053, #3df6d3);
+  background-image: -ms-linear-gradient(top, #1ed053, #3df6d3);
+  background-image: -o-linear-gradient(top, #1ed053, #3df6d3);
+  background-image: -webkit-gradient(to bottom, #1ed053, #3df6d3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+
+  font-size: 20px;
+  padding: 15px;
+  -webkit-box-shadow: 0 3px 12px 0 #000000;
+  -moz-box-shadow: 0 3px 12px 0 #000000;
+  box-shadow: 0 3px 12px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
